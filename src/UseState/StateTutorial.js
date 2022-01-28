@@ -5,7 +5,11 @@ const StateTutorial = () => {
 
   let onChange = (event) => {
     const newValue = event.target.value;
-    setInputValue(newValue);
+  
+  /*   setInputValue(() => {
+      return newValue + "gg"
+    }) */
+    setInputValue(newValue + "gg")
   };
 
   return (
